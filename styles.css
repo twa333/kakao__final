@@ -1,0 +1,39 @@
+@import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav.css";
+@import "friends.css";
+@import "find.css";
+@import "chatting.css";
+@import "more.css";
+@import "setting.css";
+@import "mobile.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+}
+
+a {
+  text-decoration: none;
+  color: #020202;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+main {
+  animation: fadein 0.5s ease-in-out;
+}

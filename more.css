@@ -1,0 +1,87 @@
+.more-user__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more__btn {
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #f7f7f7;
+}
+.emotion__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.themes__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.account__btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.suggestions__title {
+  font-weight: 700;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.suggestions__btn {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.kakao-story {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kakao-story_icon {
+  background-color: yellow;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+.kakao-friends {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kakao-friends_icon {
+  background-color: yellow;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px black solid;
+  border-radius: 5px;
+}
+.kakao-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.kakao-game_icon {
+  background-color: yellow;
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px black solid;
+  border-radius: 5px;
+}

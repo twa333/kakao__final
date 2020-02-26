@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kakao Clone</title>
+    <script
+      src="https://kit.fontawesome.com/91690c1152.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body class="chat-body">
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column-left">
+          <i class="fas fa-signal"></i>
+          <span class="skt-text">SKT</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column-centet">
+          <span class="clock">11:30 am </span>
+        </div>
+        <div class="status-bar__column-right">
+          <i class="fas fa-headphones-alt"></i>
+          <i class="fas fa-cloud-download-alt"></i>
+          <spn class="battery">100%</spn>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <div class="header__chat">
+        <div class="header__header-column-icon-chat">
+          <a href="index.html" class="nav__list-link">
+            <i class="fas fa-chevron-left"></i
+          ></a>
+        </div>
+        <div class="header__header-column">
+          지수탱구
+        </div>
+        <div class="header__header-column"><i class="fas fa-search"></i></div>
+      </div>
+    </div>
+    <div class="chat__timestemp">
+      <div class="timestemp-chat">2월 26일 금요일</div>
+    </div>
+    <main class="chatting">
+      <div class="chatting__column">
+        <div class="chatting-user__photo">
+          <img
+            class="chatting__avatarg-avatar"
+            src="profile.png"
+            width="45px"
+          />
+        </div>
+        <div class="chatting-user__text">
+          <span class="chatting-dalingName">Ssong</span>
+          <span class="chatting-dalingProfileText"
+            >여보 지금 어디에요~ 사랑해요
+          </span>
+          <div class="timestemp-chat__column">
+            5시 24분
+          </div>
+        </div>
+      </div>
+      <div class="mychatting__column">
+        <div class="mytimestemp-my__column">
+          5시 26분
+        </div>
+        <div class="chatting-my__column">
+          <div class="chatting-my__text">
+            <span class="chatting-myProfileText"
+              >거의 다 왔어요!ㅋㅋㅋ조금만 기다려요 달링
+            </span>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div class="write__column">
+      <input
+        type="text"
+        class="chat__write"
+        placeholder="사랑하는 사람에게 사랑을"
+        class="chat__write-input"
+      />
+      <div class="chat-left-icon chat_icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat-right-icon chat_icon">
+        <i class="far fa-smile"></i>
+        <i class="fas fa-hashtag"></i>
+      </div>
+    </div>
+    <div class="bigscreen">
+      <span class="bigScreen__text">화면을 작게 해주세요!!</span>
+    </div>
+  </body>
+</html>
